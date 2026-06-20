@@ -1,0 +1,1 @@
+{\n  \"short_name\": \"ARA Valeting\",\n  \"name\": \"ARA Mobile Valeting\",\n  \"icons\": [{\"src\": \"favicon.ico\", \"sizes\": \"64x64 32x32 24x24 16x16\", \"type\": \"image/x-icon\"}],\n  \"start_url\": \".\",\n  \"display\": \"standalone\",\n  \"theme_color\": \"#000000\",\n  \"background_color\": \"#ffffff\"\n}\n
