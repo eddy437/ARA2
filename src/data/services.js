@@ -1,0 +1,51 @@
+export const servicePackages = [
+  {
+    id: 'bronze',
+    name: 'Bronze Package',
+    tagline: 'Essential Clean',
+    duration: '45-60 mins',
+    price: 'From £30',
+    popular: false,
+    features: ['Exterior hand wash', 'Wheel face cleaning', 'Quick interior vacuum', 'Window cleaning (interior & exterior)', 'Dashboard wipe down', 'Door shuts cleaned'],
+    description: 'Perfect for maintaining your vehicle\'s cleanliness with our essential cleaning package.',
+  },
+  {
+    id: 'silver',
+    name: 'Silver Package',
+    tagline: 'Deep Clean',
+    duration: '90-120 mins',
+    price: 'From £45',
+    popular: true,
+    features: ['Everything in Bronze', 'Deep interior vacuum (seats, carpets, mats)', 'Vents & trims cleaned', 'Tyre dressing & shine', 'Door-shut deep cleaning', 'Air freshener application', 'Boot detailed cleaning'],
+    description: 'Our most popular package! A thorough clean that leaves your car looking amazing.',
+  },
+  {
+    id: 'gold',
+    name: 'Gold Package',
+    tagline: 'Premium Detail',
+    duration: '2-3 hours',
+    price: 'From £75',
+    popular: false,
+    features: ['Everything in Silver', 'Fabric seats shampooed & extracted', 'Leather seats conditioned & protected', 'Deep stain removal treatment', 'Exterior hand polish & wax', 'Boot deep clean & vacuum', 'All plastic trims restored'],
+    description: 'Premium detailing service for showroom-quality results.',
+  },
+  {
+    id: 'platinum',
+    name: 'Platinum Package',
+    tagline: 'Ultimate Luxury',
+    duration: '4-5 hours',
+    price: 'From £120',
+    popular: false,
+    features: ['Everything in Gold', 'Steam sanitisation (kills 99.9% bacteria)', 'Engine bay clean & dressing', 'Roof lining deep clean', 'Professional ceramic paint protection', 'Headlight restoration', 'All rubber seals conditioned', 'Complete undercarriage wash'],
+    description: 'The ultimate luxury experience with professional-grade products.',
+  },
+];
+
+export const addOnServices = [
+  { id: 'pet-hair', name: 'Pet Hair Removal', price: '£15', description: 'Specialist pet hair removal' },
+  { id: 'window-cleaning', name: 'Home/Office Windows', price: '£20', description: 'Clean property windows' },
+  { id: 'bin-cleaning', name: 'Wheelie Bin Cleaning', price: '£10', description: 'Deep clean bins' },
+  { id: 'driveway-wash', name: 'Driveway Jet Wash', price: '£30', description: 'Pressure wash driveway' },
+  { id: 'air-pressure', name: 'Air Pressure Cleaning', price: '£10', description: 'Compressed air cleaning' },
+  { id: 'headlight-restore', name: 'Headlight Restoration', price: '£25', description: 'Restore headlights' },
+];
