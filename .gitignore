@@ -1,0 +1,1 @@
+/node_modules\n/.pnp\n.pnp.js\n/coverage\n/build\n.DS_Store\n.env.local\n.env.development.local\n.env.test.local\n.env.production.local\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*\n
